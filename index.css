@@ -36,3 +36,15 @@ body{
   opacity: 0.5;
   background: linear-gradient(-233deg, #000 100%, rgba(0, 0, 0, 0) 65%) ;
 }
+
+.logo_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 90px;
+}
+
+.logo_title img{
+width: 15%;
+}
