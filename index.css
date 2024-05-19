@@ -58,17 +58,24 @@ width: 10%;
 
 /* SECTION GAMES */
 
+.nb{
+  display: flex;
+  justify-content: center;
+  gap: 100%;
+  text-align: center;
+}
+
 .game{
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 
   gap: 20%;
 
   margin-top: 6%;
 }
-
 
 /* LAKERS */
 .lak{
@@ -94,6 +101,8 @@ width: 10%;
 
   font-weight: 500;
   font-size: 30px;
+  padding: 4px 10px 4px 10px;
+
 }
 
 .lak h3{
@@ -132,6 +141,7 @@ width: 10%;
 
   font-weight: 500;
   font-size: 30px;
+  padding: 4px 10px 4px 10px;
 }
 
 .bulls h3{
@@ -144,5 +154,48 @@ width: 10%;
   border-radius: 3rem;
 
   font-size: 20px;
+}
+
+/* PLACAR */
+
+.scoreboard{
+  margin-top: 5%;
+  background-color: #B52532;
+  padding: 8px 32px 8px 32px;
+  border-radius: 32px;
+  margin-bottom: 5%;
+}
+
+.scoreboard h2{
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.day-game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgb(91,43,130);
+background: linear-gradient(90deg, rgba(91,43,130,1) 49%, rgba(253,186,38,1) 49%);
+
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+
+  padding: 50px;
+}
+
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
