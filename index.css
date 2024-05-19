@@ -9,6 +9,13 @@
 body{
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+  color: white;
+}
+
+/* ScrollReveal */
+
+.logo_title, .game{
+  visibility: hidden;
 }
 
 .background{
@@ -46,5 +53,96 @@ body{
 }
 
 .logo_title img{
-width: 15%;
+width: 10%;
 }
+
+/* SECTION GAMES */
+
+.game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  gap: 20%;
+
+  margin-top: 6%;
+}
+
+
+/* LAKERS */
+.lak{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lak img{
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+.lak img:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 20px yellow;
+}
+
+.lak h2{
+  margin-top: 15%;
+
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.lak h3{
+  margin-top: 15%;
+
+  background-color: white;
+  color: black;
+  padding: 5%;
+
+  border-radius: 3rem;
+
+  font-size: 20px;
+}
+
+/* CHICAGO BULLS */
+.bulls{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bulls img{
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+.bulls img:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 20px red;
+}
+
+.bulls h2{
+  margin-top: 15%;
+
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.bulls h3{
+  margin-top: 15%;
+
+  background-color: white;
+  color: black;
+  padding: 6%;
+
+  border-radius: 3rem;
+
+  font-size: 20px;
+}
+
